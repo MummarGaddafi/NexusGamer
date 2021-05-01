@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Games
+        </title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="jquery.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <link href="styles.css" rel="Stylesheet" type="text/css" />
+    </head>
+
+    <style>
+        section {
+                padding-bottom: 20px;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                margin-left: 350px ;
+                margin-right: 350px;
+                gap: 30px;
+                grid-auto-flow: column;
+                row-gap: 20px;
+                }
+        header {
+                background-color: #131313;
+                padding: 20px 0;
+                position: relative;
+                border-bottom: 1px solid #FFB320;
+                }
+        body {
+                background-color: #242121;
+                   
+             }
+        button {
+                background-color:rgb(255, 179, 0);
+                color: black;
+                border-color:rgb(255, 179, 0);
+                }
+        .card{
+                background-color: #131313;
+                padding: 20px 0;
+                position: relative;
+                border-bottom: 1px solid #FFB320;
+        }
+        .card h5{
+                color: rgb(255, 179, 0);
+        }
+    </style>
+
+    <body>
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="index.html"><img src="https://onclickwebdesign.com/wp-content/uploads/game_warrior_logo.png" alt="Game Warrior Logo" /></a>
+                </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul id="nav-menu-container">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Games.html"  >Games</a></li>
+                        <li><a href="About.html" >About</a></li>
+                        <li><a href="FAQ.html" >FAQ</a></li>
+                        <li><a href="contact.html" >Contact Us</a></li>
+                        <li class="nav-item" style="padding-right: 10px;">
+                            <input type="text" class="form-control" placeholder="Search....." >
+                        </li>
+                        <li class="nav-item">
+                            <button style="color:black;background-color: rgb(255, 179, 0); border-color: rgb(255, 179, 0);" class="form-control">Search</button>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="login.html" id="login-register-button">Login / Register</a>
+            </div>
+        </header> 
+
+        <div>
+            <div class="btn-group" style="margin-left:350px; padding: 30px; " >
+                <button style="background-color:rgb(255, 179, 0);color: black;border-color:rgb(255, 179, 0);" class="btn btn-primary category-button" data-filter="all">All</button>
+                <button style="background-color:rgb(255, 179, 0);color: black;border-color:rgb(255, 179, 0);" class="btn btn-primary category-button" data-filter="New-Arrival">New Arrival</button>
+                <button style="background-color:rgb(255, 179, 0);color: black;border-color:rgb(255, 179, 0);" class="btn btn-primary category-button" data-filter="Sale">Sale</button>
+                <button style="background-color:rgb(255, 179, 0);color: black;border-color:rgb(255, 179, 0);" class="btn btn-primary category-button" data-filter="Popular">Popular</button>
+                
+            </div>
+            <div class="crds" style="margin-left:350px;margin-right: 350px;">
+                <hr>
+                <section>
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">GTA V</h5>
+                        </div>
+                        <img class="card-img-top" src="1.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">Doom Eternal</h5>
+                        <hr>
+                        </div>
+                        <img class="card-img-top" src="2.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">Mass Effect</h5>
+                        <hr>
+                        </div>
+                        <img class="card-img-top" src="3.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+                   
+                </section>
+                <section>
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">Dota 2</h5>
+                        <hr>
+                        </div>
+                        <img class="card-img-top" src="4.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">Warframe</h5>
+                        <hr>
+                        </div>
+                        <img class="card-img-top" src="5.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                    
+                        <div class="card-body">
+                        <h5 class="card-title">Destiny 2</h5>
+                        <hr>
+                        </div>
+                        <img class="card-img-top" src="6.jpg" alt="Card image cap">
+                        <a href="#" class="nav-link">Quick buy/View</a>
+                        
+                    </div>
+                   
+                </section>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
